@@ -9,7 +9,7 @@ struct DLNode {
     struct DLNode* next;
 };
 struct DLNode* head = NULL;
-struct DLNode* Last;
+struct DLNode* Last = NULL;
 void insertAtTail(struct DLNode*& Lnode, int a[], int n) {
     DLNode* s, * r;
     Lnode = (DLNode*)malloc(sizeof(DLNode));
